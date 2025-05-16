@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Astro Widget</title>
+  <style>
+    body, html { margin:0; height:100%; }
+    #astro { width:100%; height:100%; }
+  </style>
+</head>
+<body>
+  <div id="astro"></div>
+  <script src="https://astro-charts.com/tools/widget/widget.js"></script>
+  <script>
+    // ← Replace this object with your own widget JSON config
+    initWidget('astro', {
+      /* e.g. background: '#fff', showPlanets: true, … */
+    });
+  </script>
+</body>
+</html>
